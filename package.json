@@ -1,0 +1,24 @@
+{
+  "name": "wildquest-ai",
+  "version": "1.0.0",
+  "description": "Privacy-first nature exploration companion powered by local open-weight AI.",
+  "scripts": {
+    "frontend:install": "cd frontend && npm install",
+    "frontend:build": "cd frontend && npm run build",
+    "frontend:dev": "cd frontend && npm run dev",
+    "backend:test": "cd backend && pytest"
+  },
+  "keywords": [
+    "hacktoberfest-2026",
+    "nature",
+    "ai",
+    "ollama",
+    "local-first",
+    "privacy",
+    "qwen",
+    "fastapi",
+    "react19"
+  ],
+  "author": "WildQuest AI Contributors",
+  "license": "MIT"
+}

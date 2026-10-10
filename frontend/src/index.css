@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #FBF9F4;
+    color: #3A2E27;
+  }
+
+  /* Accessible focus rings */
+  :focus-visible {
+    outline: 2px solid #2A583D;
+    outline-offset: 2px;
+  }
+}
+
+/* Restrained micro-animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Subtle parchment texture style */
+.parchment-card {
+  background: #ffffff;
+  border: 1px solid rgba(141, 163, 130, 0.25);
+  box-shadow: 0 4px 20px -2px rgba(27, 59, 43, 0.05);
+}
+
+.parchment-card-hover {
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.parchment-card-hover:hover {
+  border-color: rgba(42, 88, 61, 0.35);
+  box-shadow: 0 8px 24px -3px rgba(27, 59, 43, 0.09);
+  transform: translateY(-1px);
+}
