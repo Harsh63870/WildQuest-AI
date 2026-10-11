@@ -1,7 +1,12 @@
 # WildQuest AI 🌿
 > **“Less scrolling. More discovering.”**  
-> *A privacy-first, local-first nature exploration companion powered by open-weight AI.*  
-> *Built for Hacktoberfest 2026.*
+> *A privacy-first, local-first nature exploration companion powered by open-weight AI.*
+
+
+Try the live demo: https://wildquest-ai.onrender.com/
+
+🔗 GitHub: https://github.com/Harsh63870/WildQuest-AI
+⚙️ Backend API: https://wildquest-ai-api.onrender.com
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](LICENSE)
 [![Hacktoberfest 2026](https://img.shields.io/badge/Hacktoberfest-2026-orange.svg)](https://hacktoberfest.com/)
